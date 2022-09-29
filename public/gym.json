@@ -2,7 +2,7 @@
     {
         "id": "633479c0f1efbbc15164814f",
         "name": "Dumble",
-        "description": "The dumbbell, a type of free weight, is a piece of equipment used in weight training. It can be used individually or in pairs, with one in each hand. ",
+        "description": "The dumbbell, a type of free weight, is a piece of equipment used in weight training.",
         "age": "20-25",
         "timeRequired": "45",
         "img": "https://images.pexels.com/photos/221247/pexels-photo-221247.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -10,7 +10,7 @@
     {
         "id": "633479c0f8298040ba8ca4f1",
         "name": "Running",
-        "description": "Running for at least 10 minutes a day can significantly lower your risk of cardiovascular disease. Runners lower their chances of dying from heart disease by half. It also lowers your resting heart rate, the number of times your heart beats per minute when you're at rest.",
+        "description": "Running for at least 10 minutes a day can significantly lower your risk of cardiovascular disease. Runners lower.",
         "age": "15-20",
         "timeRequired": "45",
         "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -18,7 +18,7 @@
     {
         "id": "633479c0162c0131c016e7f4",
         "name": "Fighthing",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cum saepe unde neque, blanditiis tempore quia, esse iure consectetur repellat officia itaque eligendi ad! Totam sunt dolorum eius non dicta.",
+        "description": "Fighting for at least 10 minutes a day can significantly lower your risk of cardiovascular disease.",
         "age": "20-26",
         "timeRequired": "45",
         "img": "https://images.pexels.com/photos/260447/pexels-photo-260447.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -34,7 +34,7 @@
     {
         "id": "633479c0905de12c328f52ae",
         "name": "BigDubbleUpping",
-        "description": "Weight loss, in the context of medicine, health, or physical fitness, refers to a reduction of the total body mass, by a mean loss of fluid, body fat (adipose tissue), or lean mass (namely bone mineral deposits, muscle, tendon, and other connective tissue).",
+        "description": "Weight loss, in the context of medicine, health, or physical fitness.",
         "age": "18-26",
         "timeRequired": "45",
         "img": " https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -42,7 +42,7 @@
     {
         "id": "633479c0905de12c328f53ff",
         "name": "Push up",
-        "description": "Pushups are a simple and effective bodyweight movement that can help increase strength in your upper body and core. This exercise works the pectoral muscles in your chest and the triceps. These are the muscles in the back of your upper arms.",
+        "description": "Pushups are a simple and effective bodyweight movement that can help increase strength in your upper body and core.",
         "age": "20-24",
         "timeRequired": "45",
         "img": " https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZyZWUlMjBneW0lMjBwaG90b3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
