@@ -1,0 +1,50 @@
+[
+    {
+        "id": "633479c0f1efbbc15164814f",
+        "name": "Dumble",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cum saepe unde neque, blanditiis tempore quia, esse iure consectetur repellat officia itaque eligendi ad! Totam sunt dolorum eius non dicta.",
+        "age": "20-25",
+        "timeRequired": "45",
+        "img": "https://images.pexels.com/photos/221247/pexels-photo-221247.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": "633479c0f8298040ba8ca4f1",
+        "name": "Running",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cum saepe unde neque, blanditiis tempore quia, esse iure consectetur repellat officia itaque eligendi ad! Totam sunt dolorum eius non dicta.",
+        "age": "15-20",
+        "timeRequired": "45",
+        "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": "633479c0162c0131c016e7f4",
+        "name": "Fighthing",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cum saepe unde neque, blanditiis tempore quia, esse iure consectetur repellat officia itaque eligendi ad! Totam sunt dolorum eius non dicta.",
+        "age": "20-26",
+        "timeRequired": "45",
+        "img": "https://images.pexels.com/photos/260447/pexels-photo-260447.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": "633479c057a163e4d39bb4c1",
+        "name": "Fitness",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cum saepe unde neque, blanditiis tempore quia, esse iure consectetur repellat officia itaque eligendi ad! Totam sunt dolorum eius non dicta.",
+        "age": "20-25",
+        "timeRequired": "45",
+        "img": "https://images.pexels.com/photos/949129/pexels-photo-949129.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": "633479c0905de12c328f52ae",
+        "name": "BigDubbleUpping",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cum saepe unde neque, blanditiis tempore quia, esse iure consectetur repellat officia itaque eligendi ad! Totam sunt dolorum eius non dicta.",
+        "age": "18-26",
+        "timeRequired": "45",
+        "img": " https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": "633479c0905de12c328f53ff",
+        "name": "Push up",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cum saepe unde neque, blanditiis tempore quia, esse iure consectetur repellat officia itaque eligendi ad! Totam sunt dolorum eius non dicta.",
+        "age": "20-24",
+        "timeRequired": "45",
+        "img": " https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZyZWUlMjBneW0lMjBwaG90b3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+    }
+]
