@@ -6,6 +6,7 @@ import './Home.css'
 const Home = () => {
     const [cards, setCards] = useState([])
     const [time, setTime] = useState(0)
+    const [breakTime, setBreakTime] = useState(0)
     useEffect(() => {
         fetch('gym.json')
             .then(res => res.json())
@@ -14,10 +15,11 @@ const Home = () => {
 
     const handleAddTolist = (times) => {
         const newTime = parseInt(times)
-        console.log(newTime);
         const totalTime = time + newTime;
         setTime(totalTime)
     }
+
+
 
     return (
         <div className='home-container'>
@@ -33,11 +35,12 @@ const Home = () => {
                     <h3>Shahidul Islam</h3>
                     <p><small>Chitagong,Bangladesh</small></p>
                 </div>
-
+                <h3>Add A Break</h3>
+                <AddBreak setBreakTime={setBreakTime}></AddBreak>
                 <div className='time-details'>
-                    <h4>Exrise Details</h4>
-                    <h5>Exercise time: {time}s;</h5>
-                    <AddBreak></AddBreak>
+                    <h3>Exrise Details</h3>
+                    <h4>Exercise time: {time} seconds</h4>
+                    <h4>Break time: {breakTime}</h4>
                 </div>
             </div>
         </div>

@@ -1,13 +1,14 @@
 import React from 'react';
+import './AddBreak.css'
 
-const AddBreak = () => {
+const AddBreak = ({ setBreakTime }) => {
     return (
-        <div>
-            <button>20s</button>
-            <button>30s</button>
-            <button>40s</button>
-            <button>50s</button>
-            <button>60s</button>
+        <div className='btn-group'>
+            <button onClick={() => setBreakTime(20)}>20s</button>
+            <button onClick={() => setBreakTime(30)}>30s</button>
+            <button onClick={() => setBreakTime(40)}>40s</button>
+            <button onClick={() => setBreakTime(50)}>50s</button>
+            <button onClick={() => setBreakTime(60)}>60s</button>
         </div>
     );
 };
