@@ -4,6 +4,7 @@ import Card from '../Card/Card';
 import './Home.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Qestion from '../Qestion/Qestion';
 
 const Home = () => {
     const [cards, setCards] = useState([])
@@ -34,6 +35,7 @@ const Home = () => {
                     cards.map(card => <Card card={card} key={card.id} handleAddTolist={handleAddTolist}></Card>)
 
                 }
+                <Qestion></Qestion>
             </div>
 
             <div className='my-profile-info'>
