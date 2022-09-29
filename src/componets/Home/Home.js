@@ -21,15 +21,6 @@ const Home = () => {
         setTime(totalTime)
     }
 
-    useEffect(() => {
-        localStorage.setItem("key", breakTime)
-        console.log(localStorage.getItem(JSON.parse(breakTime)));
-    }, [breakTime])
-    const handleAddtoBreak = () => {
-
-    }
-
-
     const notify = () =>
         toast.success("congratulations we are done!", { position: "top-center", autoClose: 3000 })
 
@@ -51,11 +42,11 @@ const Home = () => {
                     <p><small>Chitagong,Bangladesh</small></p>
                 </div>
                 <h3>Add A Break</h3>
-                <AddBreak handleAddtoBreak={handleAddtoBreak} setBreakTime={setBreakTime}></AddBreak>
+                <AddBreak setBreakTime={setBreakTime}></AddBreak>
                 <div className='time-details'>
                     <h3>Exrise Details</h3>
                     <h4>Exercise time: {time} seconds</h4>
-                    <h4>Break time: {breakTime}</h4>
+                    <h4>Break time: {breakTime} seconds</h4>
                 </div>
                 <button className='activity-btn' onClick={() => notify()}>Activity Completed</button>
                 <ToastContainer />
