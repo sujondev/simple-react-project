@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
+    height: 450px;
 }
 
 .my-profile-info {
@@ -40,4 +41,25 @@
     padding: 10px;
     margin: 5px;
     height: 40px;
+}
+
+@media screen and (max-width:650px) {
+    .home-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .my-gym-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width:620px) and (max-width:1200px) {
+    .my-gym-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
 }
