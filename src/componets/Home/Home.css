@@ -41,3 +41,21 @@
     margin: 5px;
     height: 40px;
 }
+
+@media screen and (max-width:620px) {
+    .home-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+
+    .my-gym-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .my-profile-info {
+        width: 100%;
+    }
+}
