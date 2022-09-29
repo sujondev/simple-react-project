@@ -30,12 +30,15 @@ const Home = () => {
 
     return (
         <div className='home-container'>
-            <div className='my-gym-info'>
-                {
-                    cards.map(card => <Card card={card} key={card.id} handleAddTolist={handleAddTolist}></Card>)
+            <div>
+                <h1 className='web-title'>Welcome to Gym hero </h1>
+                <div className='my-gym-info'>
+                    {
+                        cards.map(card => <Card card={card} key={card.id} handleAddTolist={handleAddTolist}></Card>)
 
-                }
-                <Qestion></Qestion>
+                    }
+                    <Qestion></Qestion>
+                </div>
             </div>
 
             <div className='my-profile-info'>
