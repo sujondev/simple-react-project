@@ -42,6 +42,7 @@ const Home = () => {
                     <h4>Exercise time: {time} seconds</h4>
                     <h4>Break time: {breakTime}</h4>
                 </div>
+                <button className='activity-btn'>Activity Completed</button>
             </div>
         </div>
     );
